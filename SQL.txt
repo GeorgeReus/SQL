@@ -1,0 +1,10 @@
+ 窗口函数
+ row_number        不重复排序
+ dense_rank        会重复排名   1  2  2  3    连续排序
+ rank()            会重复排     1  2  2  4    跳跃排序
+ rank()  over ( partition by  subject  order by score) as 'RANK'
+
+ 行列转置
+ union all
+ group by 
+ case when
